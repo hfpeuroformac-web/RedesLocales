@@ -1,0 +1,9 @@
+Práctica en la cual me voy a conectar al Swtich desde Telnet
+
+ESCENARIO
+
+PC1 <-> Switch
+
+PC1: IP 192.168.1.10
+Switch: 192.168.1.1
+Cable directo (PC a Switch), puerto FastEthernet 0/1

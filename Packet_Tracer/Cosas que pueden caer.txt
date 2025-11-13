@@ -1,0 +1,8 @@
+Cosas que pueden caer:
+1) Parte teórica -> Cableado -> Mirar PDF Resumen
+2) Parte práctica
+- Configuración básica del switch: cambiar nombre, resetear el switch de fábrica, contraseña para enable, acceso a tablas mac, y creación de vlanes.
+- Acceso al switch:
+Por consola -> Topología correcta, contraseña para acceder al switch por cable consola
+Telnet -> Configurar acceso al switch por telnet
+SSH -> Configurar acceso al switch por SSH

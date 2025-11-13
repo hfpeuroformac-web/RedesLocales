@@ -1,0 +1,22 @@
+Telnet
+
+configuración de linias de acceso remoto
+	line vty 0 4
+poner contraseña 
+	password ---
+logearse
+	login
+sales de la configuración de las líneas
+	exit
+entras en la configuración de la red 
+	interface vlan 1 o la que vayas a usar
+le pones ip
+	ip address ------ -------
+haces que la red no se apague
+	no shutdown
+sales
+	exit
+pones contraseña al modo privilegiado
+	enable secret -----
+guardar configuración
+	write memory

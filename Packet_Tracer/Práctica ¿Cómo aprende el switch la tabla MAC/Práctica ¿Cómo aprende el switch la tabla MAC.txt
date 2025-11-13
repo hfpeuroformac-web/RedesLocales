@@ -1,0 +1,29 @@
+ Práctica: ¿Cómo aprende el switch la tabla MAC?
+Ver cómo el switch aprende MAC's
+Observa la tabla MAC vacía -> llena
+Topología
+Dispositivo 		Puerto
+PC1 			Fa0/1
+PC2 			Fa0/2
+Switch Cisco 2960 	-----
+
+
+Conectar PC1 y PC2 al switch con cables directos. Copper Stright-Through
+IPs para PCs
+
+PC   	IP           	Máscara
+PC1 	192.168.1.10 	255.255.255.0
+PC2 	192.168.1.20 	255.255.255.0
+
+Observar la tabla MAC vacía //show mac-address-table
+PC1 ping al PC2 //ping 192.168.1.20
+Ver de nuevo la tabla MAC //show mac-address-table
+
+¿Qué es una tabla MAC y para que sirve?
+
+	Es una tabla de todas las direcciones mac que el switch se a aprendido a base de pings
+
+¿Qué hace el switch cuando recibe una trama con una MAC origen nueva?
+
+	
+¿Qué ocurre si el switch no conoce la MAC destino?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

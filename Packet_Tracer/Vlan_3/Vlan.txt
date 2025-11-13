@@ -1,0 +1,17 @@
+Vlan
+
+crear vlan
+	vlan ---
+configurar vlan
+	interface vlan ---
+cambiar nombre 
+	name -----
+salir de configuración de vlan
+	exit
+entrar en la configuración de los puertos 
+	interface fa0/---
+	interface range fa0/...-...
+cambiar modo del puerto a aceso
+	switchport mode Access
+cambiar el puerto a la vlan deseada
+	switchport Access vlan ---

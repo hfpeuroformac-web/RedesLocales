@@ -1,0 +1,24 @@
+SSH
+poner nombre al dominio
+	ip domain-name ---.---
+crear usuario
+	username ---- secret -----
+crear una  contraseña rsa
+	crypyo key generate rsa
+	te pedirá un numero de byts (mínimo 1024)
+
+entran en líneas de transporte digital
+	line vty 0 4
+cambiar de telnet a ssh
+	transport input ssh
+que solo inicie local
+	login local
+poner ip a la red
+	ip address ------ -------
+para que no se apage la red ponemos 
+	no shutdown
+poner contraseña de privilegios 
+	enable secret ----
+
+GUARDA CAMBIOS 
+	write memory
