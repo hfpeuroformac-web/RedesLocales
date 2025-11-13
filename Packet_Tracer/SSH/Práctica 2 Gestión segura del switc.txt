@@ -1,0 +1,25 @@
+Práctica 2: Gestión segura del switch desde VLAN 30
+(SSH y bloqueo del resto)
+Topología:
+1 Swtich Cisco 2960
+3 PCs:
+- PC-ADMIN - VLAN30 -> Gestión del switch
+- PC-VENTAS - VLAN40
+- PC-SOPORTE - VLAN50
+Configuración VLANs:
+VLAN30 -> MANAGEMENT
+VLAN40 -> VENTAS
+VLAN50 -> SOPORTE
+Dirección IP de gestión de la VLAN30 -> 192.168.30.1/24
+Configuración de SSH:
+- Crear un usuario y una contraseña
+- Configurar el nombre del host y dominio
+- Generar clave RSA
+- Bloquear totalmente Telnet en las linea VTY
+Reglas de acceso:
+PC-ADMIN -> Debe poder conectase al SSH del switch
+PC-VENTAS Y PC-SOPORTE -> no deben conectarse por SSH
+Configuración de PCs:
+- PC-ADMIN: 192.168.30.10 /24
+- PC-VENTAS: 192.168.40.10 /24
+- PC-SOPORTE: 192.168.50.10 /24
