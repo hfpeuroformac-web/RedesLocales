@@ -1,0 +1,13 @@
+Config 2 switch para Vlan
+
+
+conectar en gigabitethernet
+crear Vlan en ambos switches
+entrar en la configuración del puerto
+	interface gi0/---
+Cambiar modo de puerto 
+	switchport mode trunk
+poner en la Vlan deseada
+	switchport trunk allowed ------
+repetir en el otro
+meter los otros puertos en Vlanes deseadas
